@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\API.deps.json" />
+    <Content Include="bin\Debug\net7.0\API.runtimeconfig.json" />
+    <Content Include="bin\Debug\net7.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net7.0\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\API" />
+    <None Include="bin\Debug\net7.0\API.dll" />
+    <None Include="bin\Debug\net7.0\API.exe" />
+    <None Include="bin\Debug\net7.0\API.pdb" />
+    <None Include="bin\Debug\net7.0\BL.dll" />
+    <None Include="bin\Debug\net7.0\BL.pdb" />
+    <None Include="bin\Debug\net7.0\DataAccess.dll" />
+    <None Include="bin\Debug\net7.0\DataAccess.pdb" />
+    <None Include="bin\Debug\net7.0\DTO.dll" />
+    <None Include="bin\Debug\net7.0\DTO.pdb" />
+    <None Include="bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net7.0\System.Data.SqlClient.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business Logic\BL.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net8.0\" />
+    <Folder Include="bin\Release\net7.0\" />
+  </ItemGroup>
+
+</Project>

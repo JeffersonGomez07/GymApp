@@ -1,0 +1,15 @@
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\bin\Debug\net8.0\DTO.dll
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\bin\Debug\net8.0\DTO.pdb
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\jeffe\Downloads\Escritorio\GymApp\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

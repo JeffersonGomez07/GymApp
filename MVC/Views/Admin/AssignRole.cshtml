@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Assign Roles";
+    Layout = "../Shared/_LayoutAssing.cshtml";
+}
+
+<script src="~/js/Pages/Admin/Admin.js" defer></script>
+<link rel="stylesheet" href="~/css/assingRole.css" />
+
+<div class="background-container">
+    <h2>Assign Roles</h2>
+    <form id="assignRoleForm">
+        <div>
+            <label for="selectUser">Select User:</label>
+            <select id="selectUser" name="userId">
+                <!-- Users will be loaded here -->
+            </select>
+        </div>
+        <div>
+            <label for="selectRole">Select Role:</label>
+            <select id="selectRole" name="roleId">
+                <!-- Roles will be loaded here -->
+            </select>
+        </div>
+        <button type="submit">Assign Role</button>
+    </form>
+</div>
+
+

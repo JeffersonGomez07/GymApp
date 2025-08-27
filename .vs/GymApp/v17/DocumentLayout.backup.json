@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05227708-95EE-447E-8883-D9AF04C673C8}|DataAccess\\DataAccess.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\dataaccess\\mapper\\icrudstatements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05227708-95EE-447E-8883-D9AF04C673C8}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\mapper\\icrudstatements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\business logic\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|solutionrelative:business logic\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\business logic\\regulationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|solutionrelative:business logic\\regulationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\business logic\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|solutionrelative:business logic\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\business logic\\createroutinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F52447E-EA1C-450F-97BD-21D7E070BA12}|Business Logic\\BL.csproj|solutionrelative:business logic\\createroutinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76EE3D28-85A7-4879-BA79-FC0E5C20D757}|GymApp\\API.csproj|c:\\users\\jeffe\\downloads\\escritorio\\gymapp\\gymapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76EE3D28-85A7-4879-BA79-FC0E5C20D757}|GymApp\\API.csproj|solutionrelative:gymapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 129,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AgIAADAAAAAAAAAAAAAhwDUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-27T00:00:31.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business Logic\\UserManager.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\UserManager.cs",
+              "RelativeToolTip": "Business Logic\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:56:18.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegulationManager.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\RegulationManager.cs",
+              "RelativeDocumentMoniker": "Business Logic\\RegulationManager.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\RegulationManager.cs",
+              "RelativeToolTip": "Business Logic\\RegulationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:56:16.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Business Logic\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\PasswordHelper.cs",
+              "RelativeToolTip": "Business Logic\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:56:15.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICrudStatements.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\DataAccess\\Mapper\\ICrudStatements.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Mapper\\ICrudStatements.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\DataAccess\\Mapper\\ICrudStatements.cs",
+              "RelativeToolTip": "DataAccess\\Mapper\\ICrudStatements.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:56:24.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRoutineManager.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\CreateRoutineManager.cs",
+              "RelativeDocumentMoniker": "Business Logic\\CreateRoutineManager.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\Business Logic\\CreateRoutineManager.cs",
+              "RelativeToolTip": "Business Logic\\CreateRoutineManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:55:51.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\GymApp\\Program.cs",
+              "RelativeDocumentMoniker": "GymApp\\Program.cs",
+              "ToolTip": "C:\\Users\\jeffe\\Downloads\\Escritorio\\GymApp\\GymApp\\Program.cs",
+              "RelativeToolTip": "GymApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:46:47.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Log In";
+    Layout = "../Shared/_LayoutUser.cshtml";
+}
+
+<script src="~/js/Pages/User/Login.js" defer></script>
+<link rel="stylesheet" href="~/css/users.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <h1 class="display-4">Welcome Back</h1>
+        <div class="form-container">
+            <form id="loginForm" action="submit">
+                <label for="username">Username</label>
+                <input id="username" type="text" class="form-control" required />
+
+                <label for="password">Password</label>
+                <input id="password" type="password" class="form-control" required />
+
+                <div class="button-container">
+                    <button type="submit" class="btn btn-success" id="btnLogin">LOG IN</button>
+                </div>
+
+                <div class="text-center">
+                    <p>Forgot your password? <a asp-area="" asp-controller="User" asp-action="ResetPasswordRequest">Reset it now.</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+

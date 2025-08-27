@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Receptionists Page";
+    Layout = "../Shared/_LayoutRoutines.cshtml";
+}
+
+<script src="~/js/Pages/Receptionist/Receptionist.js" defer></script>
+<link rel="stylesheet" href="~/css/routines.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+
+<div class="container">
+    <main>
+        <h1 class="display-4">Welcome Receptionists!</h1>
+
+        <section class="function-section container">
+            <a asp-controller="Membership" asp-action="ConfirmMembership" class="function-card">
+                <h2>Approve Membership</h2>
+
+                <p>In this section, you can approve memberships and upload payment receipts.</p>
+            </a>
+
+        </section>
+
+    </main>
+</div>
+
+

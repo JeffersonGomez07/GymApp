@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4A90E2;
+}
+
+/* Form Styles */
+.form-container {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+input[type="time"],
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus,
+    input[type="number"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="time"]:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #4A90E2;
+        outline: none;
+        box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    }
+
+/* Button Styles */
+.button-container {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #4A90E2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button[type="submit"]:hover {
+        background-color: #357ABD;
+    }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Recorded Routine Results";
+    Layout = "../Shared/_LayoutRecordResults";
+}
+<script src="~/js/pages/Routines/recordedResults.js" defer></script>
+<link rel="stylesheet" href="~/css/results.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <h1>Recorded Results for Routine</h1>
+        <div class="results-container">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Exercise</th>
+                        <th>Sets Completed</th>
+                        <th>Repetitions Completed</th>
+                        <th>Weight Used</th>
+                        <th>Time Duration</th>
+                        <th>AMRAP Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Las filas de resultados se llenarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>

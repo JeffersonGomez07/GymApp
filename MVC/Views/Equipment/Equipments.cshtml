@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Equipment";
+    Layout = "../Shared/_LayoutExercises.cshtml";
+}
+
+<script src="~/js/Pages/Equipments/equipments.js" defer></script>
+<link rel="stylesheet" href="~/css/StyleEquipment.css" />
+
+<div class="container">
+    <main>
+        <h1>Equipment Management</h1>
+
+        <!-- Equipment creation form -->
+        <div class="form-container">
+            <h2>Create Equipment</h2>
+            <form id="createEquipmentForm" action="submit">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" required>
+
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <label for="status">Status</label>
+                <input type="text" id="status" name="status" required>
+
+                <div class="button-container">
+                    <button type="submit">Create</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Equipment editing form -->
+        <div class="form-container" id="editEquipmentSection" style="display:none;">
+            <h2>Edit Equipment</h2>
+            <form id="editEquipmentForm" action="submit">
+                <input type="hidden" id="editEquipmentId" name="equipmentId">
+
+                <label for="editName">Name</label>
+                <input type="text" id="editName" name="name" required>
+
+                <label for="editDescription">Description</label>
+                <input type="text" id="editDescription" name="description" required>
+
+                <label for="editQuantity">Quantity</label>
+                <input type="number" id="editQuantity" name="quantity" required>
+
+                <label for="editStatus">Status</label>
+                <input type="text" id="editStatus" name="status" required>
+
+                <div class="button-container">
+                    <button type="submit">Save Changes</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Equipment list table -->
+        <div class="table-container">
+            <h2>Equipment List</h2>
+            <table id="equipmentTable" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>

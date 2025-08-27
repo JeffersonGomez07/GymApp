@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Manage Users";
+}
+
+<h2>Manage Users</h2>
+
+<!-- Barra de búsqueda -->
+<div class="form-group">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by name or username...">
+</div>
+
+<table class="table" id="usersTable">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Birthdate</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Las filas se generarán dinámicamente desde el JavaScript -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/js/Pages/Admin/ManageUsers.js"></script>
+}

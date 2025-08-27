@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el cuerpo tenga al menos la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.container {
+    flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
+    padding: 20px;
+}
+
+/* Encabezado */
+main h1 {
+    color: #1e4f4f;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table thead th {
+        background-color: #1e4f4f;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+        text-align: left;
+        border-bottom: 2px solid #ddd;
+    }
+
+    table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    table tbody tr:hover {
+        background-color: #e0f7fa;
+    }
+
+    table tbody td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+/* Botón para agregar ejercicios */
+.add-exercise-button-container {
+    text-align: right;
+}
+
+    .add-exercise-button-container .btn {
+        background-color: #1e4f4f;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .add-exercise-button-container .btn:hover {
+            background-color: #145454;
+        }
+
+/* Enlaces de acción */
+table tbody td a {
+    color: #1e4f4f;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+    table tbody td a:hover {
+        text-decoration: underline;
+    }
+
+/* Footer */
+footer {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el pie de página al final */
+}
+
+    footer a {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+
+        table tbody tr {
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        table tbody td {
+            text-align: right;
+            padding-left: 50%;
+            position: relative;
+        }
+
+            table tbody td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(50% - 20px);
+                text-align: left;
+                font-weight: bold;
+            }
+}

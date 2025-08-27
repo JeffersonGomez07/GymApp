@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "List of Routines";
+    Layout = "../Shared/_LayoutRoutines.cshtml";
+}
+
+<script src="~/js/pages/Routines/routineList.js" defer></script>
+<link rel="stylesheet" href="~/css/routinesList.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <h1>List of Routines</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Member</th>
+                    <th>Instructor</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Creation Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="routine-list">
+                <!-- Rutinas y ejercicios se cargarán aquí mediante JavaScript -->
+            </tbody>
+        </table>
+      
+    </main>
+</div>

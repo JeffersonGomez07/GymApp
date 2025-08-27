@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<section class="hero-section">
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>YOUR FITNESS JOURNEY STARTS TODAY.</h1>
+            <p>READY FOR YOUR FIRST CLASS?</p>
+            <a asp-controller="User" asp-action="RegisterUser" class="button-container">
+                <button type="submit" class="btn btn-success" id="btnCreate">START TRAINING NOW!</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="pricing-section container">
+    <a asp-controller="User" asp-action="RegisterUser" class="pricing-card">
+        <h2>LET'S GO BASIC</h2>
+        <div class="price">
+            <span class="currency">USD</span>
+            <span class="amount">80</span>
+            <span class="cents">,00</span>
+        </div>
+        <p>Get full access to all training equipment</p>
+    </a>
+    
+    <a asp-controller="User" asp-action="RegisterUser" class="pricing-card">
+        <h2>LET'S GO REGULAR</h2>
+        <div class="price">
+            <span class="currency">USD</span>
+            <span class="amount">120</span>
+            <span class="cents">,00</span>
+        </div>
+        <p>Get full access to all training equipment PLUS 2 group classes per week</p>
+    </a>
+
+    <a asp-controller="User" asp-action="RegisterUser" class="pricing-card">
+        <h2>LET'S GO PREMIUM</h2>
+        <div class="price">
+            <span class="currency">USD</span>
+            <span class="amount">180</span>
+            <span class="cents">,00</span>
+        </div>
+        <p>Get full access to all training equipment PLUS unlimited access to group classes</p>
+    </a>  
+
+</section>
+
+<section class="contact-section container">
+    <div class="location">
+        <h3>Guachipelin, Escazú</h3>
+        <h3>San José, Costa Rica</h3>
+    </div>
+
+    <div class="contact-info">
+        <h3>Contact</h3>
+        <a href="mailto:fitnesscentercenfo@gmail.com">fitnesscentercenfo@gmail.com</a>
+        <a href="tel:+50686357398">+506 8635-7398</a>
+    </div>
+
+    <div class="newsletter">
+        <h3>KEEP IN TOUCH</h3>
+        <p>
+            Be the first to hear about our launch, special introductory rates, promotional offers, and giveaways!
+        </p>
+        <label for="email">Email Address</label>
+        <input id="email" type="email" class="form-control" required />
+        <div class="button-container">
+            <button type="submit" class="btn btn-success">SIGN UP</button>
+        </div>
+    </div>
+</section>

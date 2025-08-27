@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el cuerpo tenga al menos la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.container {
+    flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
+    padding: 20px;
+}
+
+/* Encabezado */
+h1.display-4 {
+    color: #1e4f4f;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sección de funciones (tarjetas) */
+.function-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en pantallas más pequeñas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.function-card {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 21px;
+    border-radius: 10px;
+    text-align: center;
+    width: 22%; /* Ajusta el ancho de las tarjetas según sea necesario */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave para las tarjetas */
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .function-card:hover {
+        transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Incrementa la sombra al pasar el mouse */
+    }
+
+    .function-card h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .function-card p {
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+
+/* Botón para agregar ejercicios */
+.add-exercise-button-container {
+    text-align: right;
+}
+
+    .add-exercise-button-container .btn {
+        background-color: #1e4f4f;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .add-exercise-button-container .btn:hover {
+            background-color: #145454;
+        }
+
+/* Enlaces de acción */
+table tbody td a {
+    color: #1e4f4f;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+    table tbody td a:hover {
+        text-decoration: underline;
+    }
+
+/* Footer */
+footer {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el pie de página al final */
+}
+
+    footer a {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+
+        table tbody tr {
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        table tbody td {
+            text-align: right;
+            padding-left: 50%;
+            position: relative;
+        }
+
+            table tbody td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(50% - 20px);
+                text-align: left;
+                font-weight: bold;
+            }
+
+    /* Ajustes para las tarjetas en dispositivos móviles */
+    .function-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .function-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

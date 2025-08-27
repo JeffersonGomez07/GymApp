@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Default Page";
+    Layout = "../Shared/_LayoutAdmin.cshtml";
+}
+
+<script src="~/js/Pages/Default/Default.js" defer></script>
+<link rel="stylesheet" href="~/css/default.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+
+<div class="container">
+    <main>
+        <div>
+            <h1>Get Your Membership and Start Training Today!</h1>
+            <p>
+                Step into our cutting-edge studios and immerse yourself in the fitness world.
+                Feel happier, build resilience, and thrive like never before!
+            </p>
+        </div>
+
+        <section class="memberships">
+            <button type="button" class="membership-button" data-membership-type="Basic" data-amount="80">
+                <header>LET'S TRAIN BASIC</header>
+
+                <section>
+                    <section>
+                        <div>
+                            <span>USD80</span>
+                            <span>,00</span>
+                        </div>
+                    </section>
+                    <p>"Get full access to all training equipment"</p>
+                </section>
+            </button>
+
+            <button type="button" class="membership-button" data-membership-type="Regular" data-amount="120">
+                <header>LEST'S TRAIN REGULAR</header>
+
+                <section>
+                    <section>
+                        <div>
+                            <span>USD120</span>
+                            <span>,00</span>
+                        </div>
+
+                        <div>
+                            <span>2</span>
+                            <span>
+                                "group classes"
+                                <br>
+                                "per week"
+                            </span>
+                        </div>
+
+                    </section>
+
+                    <p>"Get full access to all training equipment PLUS 2 group classes per week"</p>
+
+                </section>
+            </button>
+
+            <button type="button" class="membership-button" data-membership-type="Premium" data-amount="180">
+                <header>LET'S TRAIN PREMIUM</header>
+
+                <section>
+                    <section>
+                        <div>
+                            <span>USD180</span>
+                            <span>,00</span>
+                        </div>
+
+                        <div>
+                            <span>2</span>
+                            <span>
+                                "group classes"
+                                <br>
+                                "per week"
+                            </span>
+                        </div>
+
+                        <div>
+                            <span>Unlimited</span>
+                            <span>
+                                "group classes"
+                            </span>
+                        </div>
+
+                    </section>
+
+                    <p>"Get full access to all training equipment PLUS unlimited access to group classes"</p>
+
+                </section>
+            </button>
+        </section>
+
+    </main>
+</div>
+

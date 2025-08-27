@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Create Exercise";
+    Layout = "../Shared/_LayoutExercises.cshtml";
+}
+<script src="~/js/pages/Exercises/createExercises.js" defer></script>
+<link rel="stylesheet" href="~/css/exercises.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+
+<div class="container">
+    <main>
+        <h1>Create Exercise</h1>
+        <div class="form-container">
+            <form id="createExerciseForm" action="submit">
+                <label for="exercise_type_id">Select Exercise Type</label>
+                <select id="exercise_type_id" name="exercise_type_id">
+                    <option value="">Select a Exercise Type</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description">
+
+                <label for="primary-muscle">Primary Muscle</label>
+                <input type="text" id="primary_muscle" name="primary_muscle">
+
+                <div class="button-container">
+                    <button type="submit">Create</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+

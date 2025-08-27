@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC
+build_property.RootNamespace = MVC
+build_property.ProjectDir = C:\Users\jeffe\Downloads\Escritorio\GymApp\MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jeffe\Downloads\Escritorio\GymApp\MVC
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Admin/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Admin/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Admin/AssignRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Admin/ManageUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Default/DefaultPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxEZWZhdWx0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Equipment/Equipments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50XEVxdWlwbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Exercise/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Membership/ConfirmMembership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxDb25maXJtTWVtYmVyc2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Member/MemberPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXE1lbWJlclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Receptionist/ReceptionistPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXB0aW9uaXN0XFJlY2VwdGlvbmlzdFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Routine/addExerciseRoutine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZVxhZGRFeGVyY2lzZVJvdXRpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Routine/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Routine/RecordResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZVxSZWNvcmRSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Routine/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZVxSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Routine/RoutineList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZVxSb3V0aW5lTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Rutine/CreateRutine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5lXENyZWF0ZVJ1dGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Trainer/TrainerPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/User/RegisterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3RlclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/User/ResetPasswordRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldFBhc3N3b3JkUmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/User/VerifyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxWZXJpZnlBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-v2s1apk3yd
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutAssing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBc3NpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o8344nzdq8
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutExercises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFeGVyY2lzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sfe0evpom2
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutMembership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNZW1iZXJzaGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-tvcqpkpbhq
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutRecordResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZWNvcmRSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-o2ral54acu
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-d2jbv4yfri
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutRoutineExercise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSb3V0aW5lRXhlcmNpc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v7bqm2g4su
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutRoutines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSb3V0aW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-pklngi2ely
+
+[C:/Users/jeffe/Downloads/Escritorio/GymApp/MVC/Views/Shared/_LayoutUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-uzrjphtkum

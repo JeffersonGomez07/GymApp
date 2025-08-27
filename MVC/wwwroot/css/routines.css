@@ -1,0 +1,73 @@
+/* Estilo general */
+body {
+    font-family: 'Lora', serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #1e4f4f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centra el texto y las tarjetas */
+}
+
+h1.display-4 {
+    font-size: 2.5em;
+    color: #1e4f4f;
+    margin-bottom: 40px;
+}
+
+
+/* Sección de funciones */
+.function-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; /* Fondo blanco para la sección */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra para la sección */
+}
+
+.function-card {
+    background: #1e4f4f;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave para las tarjetas */
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .function-card:hover {
+        transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Incrementa la sombra al pasar el mouse */
+    }
+
+    .function-card h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .function-card p {
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+
+/* Ajustes adicionales */
+@media (max-width: 768px) {
+    .function-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .function-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

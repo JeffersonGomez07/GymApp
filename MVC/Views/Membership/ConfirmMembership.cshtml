@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Confirm Membership Payment";
+    Layout = "../Shared/_LayoutMembership.cshtml";
+}
+<script src="~/js/Pages/Membership/ConfirmMembership.js" defer></script>
+<link rel="stylesheet" href="~/css/MemberShip.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <div>
+            <h1>Membership payments pending for approval</h1>
+            <div class="table-container">
+
+                <table id="membershipTable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Membership type</th>
+                            <th>Payment date</th>
+                            <th>Amount paid</th>
+                            <th>Membership status</th>
+                            <th>Payment receipt</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>
+

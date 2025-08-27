@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Select Exercise";
+    Layout = "../Shared/_LayoutExercises.cshtml";
+}
+<script src="~/js/pages/Routines/addExerciseRoutine.js" defer></script>
+<link rel="stylesheet" href="~/css/exercises.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <h1>Select Exercises for Routine</h1>
+        <div class="form-container">
+            <form id="selectExercisesForm">
+                <label for="routine_id">Select Routine</label>
+                <select id="routine_id" name="routine_id">
+                    <option value="">Select a Routine</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+
+                <label for="exercise_id">Select Exercise</label>
+                <select id="exercise_id" name="exercise_id">
+                    <option value="">Select a Exercise</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+
+                <label for="exercise_type_id">Exercise Type</label>
+                <input type="text" id="exercise_type_id" name="exercise_type_id" required>
+
+                <label for="sets">Sets</label>
+                <input type="number" id="sets" name="sets" min="1" required>
+
+                <label for="repetitions">Repetitions</label>
+                <input type="number" id="repetitions" name="repetitions" min="1" required>
+
+                <label for="weight">Weight</label>
+                <input type="number" id="weight" name="weight" step="0.01" min="0" required>
+
+                <label for="time_duration">Time Duration</label>
+                <input type="datetime" id="time_duration" name="time_duration" placeholder="HH:MM:SS">
+
+                <label for="amrap_time">AMRAP Time</label>
+                <input type="datetime" id="amrap_time" name="amrap_time" placeholder="HH:MM:SS">
+
+                <div class="button-container">
+                    <button type="submit">Add Exercise</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>

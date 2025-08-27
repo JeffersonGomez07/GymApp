@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Record Routine Results";
+    Layout = "../Shared/_LayoutRecordResults";
+}
+<script src="~/js/pages/Routines/recordResult.js" defer></script>
+<link rel="stylesheet" href="~/css/recordresult.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+    <main>
+        <h1>Record Results for Routine</h1>
+        <div class="form-container">
+            <form id="recordResultsForm">
+                <label for="exercise_id">Exercise</label>
+                <select id="exercise_id" name="exercise_id" required>
+                    <option value="">Select a Exercise</option>
+                    <!-- Opciones para los ejercicios se llenarán aquí -->
+                </select>
+                <input type="hidden" id="exercise_type_id" name="exercise_type_id" />
+                <input type="hidden" id="routine_id" name="routine_id" /> <!-- Campo oculto para routineId -->
+
+                <label for="sets_completed">Sets Completed</label>
+                <input type="number" id="sets_completed" name="sets_completed" min="0">
+
+                <label for="repetitions_completed">Repetitions Completed</label>
+                <input type="number" id="repetitions_completed" name="repetitions_completed" min="0">
+
+                <label for="weight_used">Weight Used</label>
+                <input type="number" id="weight_used" name="weight_used" step="0.01" min="0">
+
+                <label for="time_duration">Time Duration</label>
+                <input type="text" id="time_duration" name="time_duration" placeholder="HH:MM:SS">
+
+
+                <label for="amrap_time">AMRAP Time</label>
+                <input type="text" id="amrap_time" name="amrap_time" placeholder="HH:MM:SS">
+
+                <div class="button-container">
+                    <button type="submit">Submit Results</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>

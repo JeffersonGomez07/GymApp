@@ -1,0 +1,114 @@
+/* Estilo general */
+body {
+    font-family: 'Lora', serif;
+    background-color: lightgray;
+    color: #1e4f4f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+    main h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    main p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+
+/* Sección de membresías */
+.memberships {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Botones de membresías */
+.membership-button {
+    background: white;
+    color: #1e4f4f;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+    .membership-button:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .membership-button header {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .membership-button section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .membership-button section div {
+            margin-bottom: 20px;
+        }
+
+        .membership-button section p {
+            font-size: 1em;
+            color: #1e4f4f;
+        }
+
+    /* Precios */
+    .membership-button .price {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .membership-button .currency {
+        font-size: 0.5em;
+        vertical-align: top;
+    }
+
+    .membership-button .amount {
+        font-size: 2.5em;
+    }
+
+    .membership-button .cents {
+        font-size: 0.5em;
+    }
+
+/* Estilo del footer */
+.footer {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+    .footer a {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }

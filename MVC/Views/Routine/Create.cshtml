@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Create Routine";
+    Layout = "../Shared/_LayoutExercises.cshtml";
+}
+<script src="~/js/pages/Routines/createRoutines.js" defer></script>
+<link rel="stylesheet" href="~/css/create.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<div class="container">
+    <main>
+        <h1>Create Routine</h1>
+        <div class="form-container">
+            <form id="createRoutineForm">
+                <label for="member_id">Member</label>
+                <select id="member_id" name="member_id">
+                    <option value="">Select a Member</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+
+                <label for="instructor_id">Instructor</label>
+                <select id="instructor_id" name="instructor_id">
+                    <option value="">Select an Instructor</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" required>
+
+                <div class="button-container">
+                    <button type="button" id="submitRoutine">Create</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>

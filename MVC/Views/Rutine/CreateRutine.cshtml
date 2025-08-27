@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Create Routine";
+}
+<link rel="stylesheet" href="~/css/Rutine/CreateRutine.css" />
+<body>
+    <header>
+        <div class="logo">
+            <img src="/css/Img/file (1).png" alt="Alternate Text" />
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Routines</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="create-routine">
+            <h1>Create Routine</h1>
+            <form>
+                <label for="exercise-name">Exercise Name</label>
+                <input type="text" id="exercise-name" name="exercise-name">
+                <label for="exercise-type">Exercise Type</label>
+                <input type="text" id="exercise-type" name="exercise-type">
+                <label for="sets">Sets</label>
+                <input type="text" id="sets" name="sets">
+                <label for="weight">Weight</label>
+                <input type="text" id="weight" name="weight">
+                <label for="time">Time</label>
+                <input type="text" id="time" name="time">
+                <label for="machine">Machine</label>
+                <input type="text" id="machine" name="machine">
+                <button type="submit">Create</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

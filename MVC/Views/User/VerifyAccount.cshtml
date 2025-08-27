@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Verify Email Account";
+    Layout = "../Shared/_LayoutAdmin.cshtml";
+}
+<script src="~/js/Pages/User/VerifyAccount.js" defer></script>
+<link rel="stylesheet" href="~/css/users.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+<div class="container">
+
+    <main>
+        <h1 class="display-4">Verify Your Account</h1>
+
+        <p>We've sent you an email with a verification code, enter the code below to verify your account.</p>
+
+        <div class="form-container">
+            <form id="verifyAccountForm" action="submit">
+                <label for="otp">Verification Code</label>
+                <input id="otp" type="text" class="form-control" required />
+
+                <div class="button-container">
+                    <button type="submit" class="btn btn-success" id="btnVerifyAccount">Verify Account</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+

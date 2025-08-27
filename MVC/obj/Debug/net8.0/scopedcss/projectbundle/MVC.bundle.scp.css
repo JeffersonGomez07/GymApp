@@ -1,0 +1,486 @@
+/* _content/MVC/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-q0a04yuu0e] {
+    background-color: lightgray;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-q0a04yuu0e] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-q0a04yuu0e] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-q0a04yuu0e] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-q0a04yuu0e] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-q0a04yuu0e] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-q0a04yuu0e] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-q0a04yuu0e] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-q0a04yuu0e] {
+            text-decoration: underline;
+        }
+/* _content/MVC/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-v2s1apk3yd] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-v2s1apk3yd] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-v2s1apk3yd] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-v2s1apk3yd] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-v2s1apk3yd] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-v2s1apk3yd] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-v2s1apk3yd] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-v2s1apk3yd] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-v2s1apk3yd] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-v2s1apk3yd] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutAssing.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-o8344nzdq8] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-o8344nzdq8] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-o8344nzdq8] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-o8344nzdq8] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-o8344nzdq8] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-o8344nzdq8] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-o8344nzdq8] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-o8344nzdq8] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-o8344nzdq8] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-o8344nzdq8] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutExercises.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-sfe0evpom2] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-sfe0evpom2] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-sfe0evpom2] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-sfe0evpom2] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-sfe0evpom2] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-sfe0evpom2] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-sfe0evpom2] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-sfe0evpom2] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-sfe0evpom2] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-sfe0evpom2] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutMembership.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-tvcqpkpbhq] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-tvcqpkpbhq] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-tvcqpkpbhq] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-tvcqpkpbhq] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-tvcqpkpbhq] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-tvcqpkpbhq] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-tvcqpkpbhq] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-tvcqpkpbhq] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-tvcqpkpbhq] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-tvcqpkpbhq] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutRecordResults.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-o2ral54acu] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-o2ral54acu] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-o2ral54acu] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-o2ral54acu] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-o2ral54acu] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-o2ral54acu] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-o2ral54acu] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-o2ral54acu] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-o2ral54acu] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-o2ral54acu] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutRequest.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-d2jbv4yfri] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-d2jbv4yfri] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-d2jbv4yfri] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-d2jbv4yfri] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-d2jbv4yfri] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-d2jbv4yfri] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-d2jbv4yfri] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-d2jbv4yfri] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-d2jbv4yfri] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-d2jbv4yfri] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutRoutineExercise.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-v7bqm2g4su] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-v7bqm2g4su] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-v7bqm2g4su] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-v7bqm2g4su] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-v7bqm2g4su] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-v7bqm2g4su] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-v7bqm2g4su] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-v7bqm2g4su] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-v7bqm2g4su] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-v7bqm2g4su] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutRoutines.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-pklngi2ely] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-pklngi2ely] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-pklngi2ely] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-pklngi2ely] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-pklngi2ely] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-pklngi2ely] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-pklngi2ely] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-pklngi2ely] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-pklngi2ely] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-pklngi2ely] {
+    color: white;
+}
+/* _content/MVC/Views/Shared/_LayoutUser.cshtml.rz.scp.css */
+/* Estilo de la barra de navegación */
+.navbar[b-uzrjphtkum] {
+    background-color: #1e4f4f;
+    padding: 0px 15px; /* Reduce el tamaño de padding para hacer la barra más pequeña */
+}
+
+.navbar-brand .logo[b-uzrjphtkum] {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav[b-uzrjphtkum] {
+    margin-left: auto; /* Mueve los enlaces de navegación a la derecha */
+}
+
+    .navbar-nav .nav-link[b-uzrjphtkum] {
+        color: white;
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+        margin-left: 15px;
+    }
+
+        .navbar-nav .nav-link:hover[b-uzrjphtkum] {
+            color: #C0C0C0;
+            text-decoration: underline;
+        }
+
+.navbar-toggler-icon[b-uzrjphtkum] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28128, 128, 128, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer[b-uzrjphtkum] {
+    background-color: #1e4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer a[b-uzrjphtkum] {
+        color: #C0C0C0;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-uzrjphtkum] {
+            text-decoration: underline;
+        }
+
+div.container.text-center[b-uzrjphtkum] {
+    color: white;
+}
